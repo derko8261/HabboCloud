@@ -6,10 +6,10 @@ class MySQL extends Applications {
 
 	public static function Database() {
 		try {
-			$host = "";
-			$dbname = "";
-			$user = "";
-			$pass = "";
+			$host = "sql01.hebergnity.com";
+			$dbname = "NITYDB-21343628";
+			$user = "eh66Zg511X";
+			$pass = "NITYDB-21343628";
             
 			$db = new PDO('mysql:host=' . $host . ';dbname=' . $dbname . ';charset=utf8', $user, $pass);
 			$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
